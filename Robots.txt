@@ -1,0 +1,33 @@
+User-agent: *
+Allow: /
+Allow: /IT/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*?*sort=
+
+# Crawl delay settings
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://anandhanpp.github.io/IT/sitemap.xml
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing specific
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
